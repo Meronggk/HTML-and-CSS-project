@@ -1,0 +1,66 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+.swiper-slide img {
+    display: blocks;
+    width: 100%;
+}
+.swiper-3d {
+    perspective: 1200px;
+}
+
+.swiper-horizontal {
+    touch-action: pan-y;
+}
+.swiper, swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+script {
+    display: none;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+.resort {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(161, 16, 65);
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.navbar-nav {
+    position: relative;
+    left: 70%;
+}
