@@ -23,7 +23,13 @@ div {
 }
 .welcome {
     position: relative;
-    justify-content: center;
+    margin-left: 600px;   
+}
+.places {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    margin-left: 600px;
+    font-weight: bolder;
 }
 .swiper {
     width: 100%;
@@ -68,7 +74,7 @@ script {
 }
 .resort {
     font-size: large;
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(161, 16, 65);
     margin-left: 50px;
     margin-top: 80px;
