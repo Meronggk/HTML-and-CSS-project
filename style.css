@@ -12,6 +12,19 @@ body {
 div {
     display: block;
 }
+.navbar-nav {
+    position: relative;
+    left: 70%;
+}
+.img1 {
+    width: 1347px;
+    height: auto;
+    margin-bottom: 40px;  
+}
+.welcome {
+    position: relative;
+    justify-content: center;
+}
 .swiper {
     width: 100%;
     padding-top: 50px;
@@ -59,8 +72,4 @@ script {
     color: rgb(161, 16, 65);
     margin-left: 50px;
     margin-top: 80px;
-}
-.navbar-nav {
-    position: relative;
-    left: 70%;
 }
