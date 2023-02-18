@@ -18,13 +18,23 @@ div {
 }
 .img1 {
     width: 1347px;
-    height: auto;
+    height: 700px;
     margin-bottom: 40px;  
+    
 }
-.welcome {
-    position: relative;
-    margin-left: 600px;   
+.company_name {
+    opacity: 0.5;
 }
+.company_name:hover {
+    opacity: 1.0;  
+}
+.company {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
 .places {
     /* margin-top: 20px; */
     margin-bottom: 20px;
@@ -32,7 +42,8 @@ div {
     font-weight: bolder;
 }
 .swiper {
-    width: 100%;
+    width: 70%;
+    height: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
